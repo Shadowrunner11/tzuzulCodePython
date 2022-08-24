@@ -24,11 +24,34 @@ q: lavar la ropa
 |F|V|V|
 |F|F|F|
 
+## Negacion
+
+|p| not p|
+|---|---|
+|V|F|
+|F|V|
 ## Equivalencias logicas
 
 ### Morgan
 
+```python
+not (p and q) === not p or not q
+
+not (p or q) === not p and not q
+```
 
 ### Idempotencia
 
+```python
+p and p === p
+
+p or p === p
+```
+
 ### Absorcion
+
+```python
+p and (p or q) === p
+
+p or (p and q) === p
+```
