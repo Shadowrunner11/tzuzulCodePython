@@ -6,7 +6,7 @@ saber si el numero de una tarjeta de credito es válida
 
 1. Invertir el numero de la tarjeta credito
 2. Duplicar las cifras de posicion impar
-3. Si el resultado de duplicar es mayor que 10, sumar las cifras
+3. Si el resultado de duplicar es mayor que 9, sumar las cifras
 4. Sumar los resultados con las cifras de posicion par
 5. Dividir entre 10, si no hay residuo es un numero valido
 
