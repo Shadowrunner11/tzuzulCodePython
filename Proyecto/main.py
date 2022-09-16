@@ -9,6 +9,7 @@
 print('🐍 ', 'el usuario escogio', user_response)
  """
 
+ # packages
 
 from utils.main import getInput
 
@@ -27,10 +28,8 @@ if user_response == 1:
     'Ataque rapido',
     'Ataque pesado'
   ])
-
 elif user_response == 2:
   print('En pleno escape te han matado, game over')
-
 elif user_response == 3:
   print('No te han eschando y te han rbado todas tus pertenecias')
   getInput([
